@@ -1,12 +1,10 @@
 .data
-sequence:   .word   1, 2, 4, 4, 5    # Đặt dãy số trong mảng sequence
-length:     .word   5              # Độ dài của dãy số
+sequence:   .word   1, 3, 2, 5, 4, 6   # Đặt dãy số trong mảng sequence
+length:     .word   6              # Độ dài của dãy số
 Message: .asciiz "Day co the la day tang ngat: "
 True: .asciiz "true"
 False: .asciiz "false"
 .text
-#.globl  main
-
 main:
     la      $t0, sequence           # Lấy địa chỉ của mảng sequence
     lw      $t1, length             # Lấy độ dài của dãy số
