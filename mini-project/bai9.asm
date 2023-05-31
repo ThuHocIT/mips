@@ -3,7 +3,7 @@
 	hs2: .asciiz "\nHa Quynh Trang "
 	hs3: .asciiz "\nNguyen Anh Thu "
 	ten : .word hs1,hs2,hs3
-	diem : .word 3,3,10
+	diem : .word  3,3,10
 	soSV : .word 3
 	Message0: .asciiz "\nLop co so sinh vien la :"
 	Message: .asciiz "\nNhung hoc sinh khong vuot qua ki thi Toan la:"
