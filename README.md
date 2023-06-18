@@ -1,5 +1,5 @@
 # mips
-Học về mips để hiểu về kiến trúc máy tính.
+Môn học thực hành hỗ trợ kiểu về kiến trúc máy tính, sử dụng Assembly
 1. Tải về Java Runtime Environment, JRE, để chạy công cụ MARS
 http://www.oracle.com/technetwork/java/javase/downloads/index.html
 2. Cài đặt JRE
